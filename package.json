@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://matveyozi.github.io/GOIT-JS-HW-8",
+  "homepage": "https://matveyozi.github.io/goit-hw-9",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /GOIT-JS-HW-8/"
+    "build": "parcel build src/*.html --public-url /goit-hw-9/"
   },
   "repository": {
     "type": "git",

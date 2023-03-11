@@ -7,7 +7,7 @@ function saveInputValue(e) {
 	formData[e.target.name] = e.target.value;
 	localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 }
-getLS()
+getLS();
 function getLS() {
 	if (localStorage.getItem('feedback-form-state')) {
 		formData = JSON.parse(localStorage.getItem('feedback-form-state'));
